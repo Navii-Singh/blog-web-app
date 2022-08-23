@@ -1,0 +1,6 @@
+.section{
+    display: flex;
+ 
+   background-image: url("../../../public/images/cloud.jpg");
+   background-size: cover;
+}

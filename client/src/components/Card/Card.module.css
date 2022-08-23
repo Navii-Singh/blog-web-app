@@ -1,0 +1,24 @@
+.card{
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+   max-width: 400px;
+    min-height: 300px;
+    box-shadow: 20px 20px 20px rgb(214, 214, 214);
+    /* border: 1px solid red; */
+    margin-left: 180px;
+   align-items: center;
+   padding: 15px;
+   background-color: rgb(232, 248, 255);
+}
+.card>p{
+    margin-top: 20px;
+    text-align: justify;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 22px;
+    line-height: 33px;
+}
+.card>h1{
+    font-family: 'Lora', serif;
+    color: rgb(96, 117, 117);
+}

@@ -1,0 +1,102 @@
+.settings {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  background-image: url("/public/images/cloud.jpg");
+  background-size: cover;
+}
+.settingWrapper {
+  flex: 9;
+/* border: 1PX SOLID RED; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  padding: 40px;
+}
+.settingTitles {
+  
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  /* justify-content: space-between; */
+}
+.settingUpdateAcc {
+  font-size: 35px;
+  color: pink;
+}
+.settingDeleteAcc {
+  color: pink;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 20px;
+  transition: all 0.3s;
+}
+.settingDeleteAcc:hover {
+  background-color: rgb(255, 255, 255);
+  color: pink;
+  transform: scale(1.2);
+  text-align: center;
+  line-height: 30px;
+  padding: 5px;
+  border-radius: 5px;
+}
+.settingImg {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.settingForm {
+  display: flex;
+  margin-top: 30px;
+  width: 50%;
+  flex-direction: column;
+}
+.settingProfileIcon {
+  cursor: pointer;
+
+  font-size: 23px;
+  border-radius: 50%;
+}
+.settingsPP {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  color: white;
+}
+.settingPPContainer {
+  width: 35px;
+  height: 35px;
+  background-color: rgb(255, 107, 132);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+}
+.settingForm > label {
+  font-size: 25px;
+  margin: 15px 0px 15px 10px;
+  font-family: "Lora", serif;
+}
+.settingForm > input {
+  margin: 10px 0;
+  height: 50px;
+  border: none;
+  box-shadow: 10px 10px 20px rgb(186, 186, 186);
+  outline: none;
+  padding-left: 15px;
+  font-size: 20px;
+}
+.settingForm > button {
+  width: 150px;
+  background-color: teal;
+  height: 40px;
+  border: none;
+  color: white;
+  border-radius: 30px;
+  font-size: 20px;
+  margin-top: 15px;
+  align-self: center;
+  cursor: pointer;
+}

@@ -1,0 +1,79 @@
+.contact {
+  display: flex;
+  background-image: url('../../../public/images/cloud.jpg');
+  background-size: cover;
+  height: 90vh;
+}
+.leftContainer {
+  min-height: 150px;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.left {
+  display: inline-flex;
+  /* border: 1px solid red; */
+  width: 50%;
+  flex-direction: column;
+  align-items: center;
+  min-height: 80vh;
+  justify-content: center;
+}
+.leftContainer > h1 {
+  font-size: 40px;
+  font-family: "Lora", serif;
+}
+.leftContainer > p {
+  font-family: "Oswald", sans-serif;
+  font-size: 25px;
+}
+.right {
+  display: inline-flex;
+
+  width: 50%;
+}
+.contactForm {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  margin: auto;
+}
+.contactForm > label {
+  font-family: "Oswald", sans-serif;
+  font-size: 22px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  letter-spacing: 1.2px;
+}
+.contactForm > input {
+  width: 450px;
+  height: 40px;
+  font-size: 25px;
+  background-color: rgb(194, 193, 193);
+  box-shadow: 5px 5px 10px rgb(177, 158, 158);
+  padding-left: 8px;
+}
+.contactForm > textarea {
+  box-shadow: 5px 5px 10px rgb(177, 158, 158);
+  background-color: rgb(194, 193, 193);
+  font-size: 25px;
+  padding-left: 8px;
+}
+.contactForm > input:focus,
+.contactForm > textarea:focus {
+  border: none;
+  outline: none;
+}
+.submit {
+  background-color: teal;
+  color: white;
+  border: none;
+  font-size: 20px;
+  padding: 15px;
+  width: 100px;
+  border-radius: 15px;
+  margin-top: 30px;
+  cursor: pointer;
+}

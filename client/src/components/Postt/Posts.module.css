@@ -1,0 +1,7 @@
+.posts {
+  flex: 9;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
